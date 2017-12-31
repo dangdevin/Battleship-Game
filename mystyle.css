@@ -1,0 +1,49 @@
+body
+{
+	background-color: navy;	
+	font-family: "Calibri", sans-serif;
+}
+h1 
+{
+    text-align: center;
+    color: white;
+}
+.grid
+{
+	margin: 1em auto;
+	border-collapse: collapse;
+}
+.grid td
+{
+	background-color: #00FFFF;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #ccc;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 12px;
+
+}
+.grid td.hit
+{
+	background-color: red;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #ccc;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+.grid td.miss
+{
+	background-color: white;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #ccc;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 12px;
+
+}
+
